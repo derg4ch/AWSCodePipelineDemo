@@ -9,7 +9,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapGet("/", () => "Hello World v2!");
+app.MapGet("/", () => "Hello World v1!");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
